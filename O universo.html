@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="cinza">Borda Animada</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('O universo.jpg');
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .animated-border {
+            padding: 20px;
+            border: 5px solid transparent;
+            border-image: linear-gradient(45deg, red, blue);
+            border-image-slice: 1;
+            animation: borderAnimation 5s linear infinite;
+        }
+        @keyframes borderAnimation {
+            0% {
+                border-image-source: linear-gradient(45deg, red, blue);
+            }
+            50% {
+                border-image-source: linear-gradient(45deg, blue, red);
+            }
+            100% {
+                border-image-source: linear-gradient(45deg, red, blue);
+            }
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .imagem {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imagem img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="animated-border">
+            <h1 class="cinza">A criação do universo</h1>
+            <p><strong>A criação do universo</strong> é explicada principalmente pela teoria do <em>Big Bang</em>, que sugere que o universo começou há cerca de 13,8 bilhões de anos a partir de um estado extremamente quente e denso. Nos primeiros momentos após o Big Bang, o universo passou por uma rápida expansão conhecida como <em>inflação cósmica</em>. À medida que se expandia e esfriava, partículas subatômicas começaram a se formar, eventualmente se combinando para criar os primeiros átomos.</p>
+            <p>Cerca de 380.000 anos após o Big Bang, a <strong>recombinação</strong> ocorreu, permitindo que a luz viajasse livremente e resultando na radiação cósmica de fundo que ainda observamos hoje. Com o tempo, a gravidade atraiu matéria, formando estrelas e galáxias. As estrelas criaram elementos mais pesados, que foram espalhados pelo espaço através de explosões de supernovas, contribuindo para a formação de planetas e vida.</p>
+            <p>A expansão do universo continua até hoje, acelerada pela <strong>energia escura</strong>, cuja natureza ainda é um mistério. Observações astronômicas e avanços em física teórica continuam a aprofundar nosso entendimento sobre a origem e a evolução do universo, revelando uma história de transformação e complexidade contínuas.</p>
+        </div>
+        <div class="imagem">
+            <img src="O universo.jpg" alt="A criação do universo">
+        </div>
+        <h1 class="cinza">Os buracos negros</h1>
+        <p>
+            Buracos negros são regiões no espaço onde a gravidade é tão intensa que nada, nem mesmo a luz, pode escapar de sua atração. Eles são formados pelo colapso gravitacional de estrelas massivas, resultando em um ponto de densidade infinita conhecido como singularidade, cercado por uma superfície chamada horizonte de eventos. Além de serem fascinantes por si mesmos, os buracos negros desempenham um papel crucial na compreensão das leis da física e do cosmos.
+        </p>
+        <p>
+            Os buracos negros são formados a partir do colapso de estrelas massivas no final de seu ciclo de vida. Quando uma estrela esgota seu combustível nuclear, ela não consegue mais sustentar a pressão contra a força da gravidade. Isso resulta em uma implosão, comprimindo toda a massa da estrela em um volume extremamente pequeno. Existem diferentes tipos de buracos negros, como os buracos negros estelares, que resultam do colapso de estrelas com massas várias vezes superiores à do Sol, e os buracos negros supermassivos, encontrados no centro de quase todas as galáxias, incluindo a Via Láctea, que possuem massas de milhões a bilhões de vezes a do Sol.
+        </p>
+        <p>
+            Os buracos negros são definidos por três propriedades principais: massa, carga elétrica e momento angular (ou rotação). No centro de um buraco negro reside a singularidade, onde a densidade é infinita e as leis da física conhecidas não se aplicam mais. Ao redor da singularidade, encontra-se o horizonte de eventos, além do qual nada pode escapar da atração gravitacional do buraco negro. Material que orbita em torno de um buraco negro pode formar um disco de acreção, onde a fricção aquece o material, emitindo radiação que pode ser detectada por telescópios.
+        </p>
+        <p>
+            Os buracos negros não podem ser observados diretamente, mas sua presença é inferida através de seus efeitos sobre o ambiente ao seu redor. A influência gravitacional dos buracos negros sobre estrelas e gás próximo pode ser medida, e a velocidade das estrelas orbitando um centro invisível pode revelar a presença de um buraco negro. O material no disco de acreção ao redor de um buraco negro aquece e emite radiação, incluindo raios-X, que pode ser detectada por telescópios espaciais. A fusão de buracos negros gera ondas gravitacionais, ondulações no espaço-tempo que podem ser detectadas por observatórios como o LIGO e o Virgo.
+        </p>
+        <p>
+            Os buracos negros são cruciais para a compreensão das leis da física, especialmente em condições extremas. Eles oferecem um laboratório natural para testar as previsões da teoria da relatividade geral de Einstein. Além disso, os buracos negros supermassivos desempenham um papel vital na evolução das galáxias, regulando a formação de estrelas e a distribuição de matéria.
+        </p>
+        <p>
+            Os buracos negros permanecem um dos fenômenos mais enigmáticos do universo. Desde sua formação a partir do colapso de estrelas massivas até seu impacto na estrutura e evolução das galáxias, eles desafiam nossa compreensão da física e do cosmos. Através de observações e avanços teóricos, continuamos a desvendar os mistérios que cercam esses objetos fascinantes, aprofundando nosso conhecimento sobre a natureza fundamental do universo.
+        </p>
+        <div class="buraco negro interestelar">
+            <ul>
+                <li><img src="Buracos negros imagens sensacionais.jpg" alt="OS buracos negros"></li>
+            </ul>
+        </div>
+        <div class="content-container">
+            <h1 class="cinza">Sistema Solar</h1>
+            <div class="imagem">
+                <img id="planetaImg" src="planetas-sistema-solar-577527586.jpg" alt="Planetas do sistema solar">
+            </div>
+            <h1 class='cinza'>O Sistema Solar: Uma Jornada Épica pelo Cosmos</h1>
+            <p>
+                O Sistema Solar é um vasto e complexo sistema de corpos celestes que orbitam o Sol, a nossa estrela central. Situado em um dos braços espirais da Via Láctea, o Sistema Solar é apenas um entre bilhões de sistemas estelares na nossa galáxia. No entanto, para nós, ele é de importância primordial, pois é o nosso lar no cosmos.
+            </p>
+            
+            <h2 class="cinza">O Sol: A Estrela Central</h2>
+            <p>
+                No coração do Sistema Solar está o Sol, uma estrela de classe G2V, composta principalmente de hidrogênio e hélio. Com uma massa de cerca de 1,989 × 10^30 kg, o Sol contém aproximadamente 99,86% de toda a massa do Sistema Solar. Ele gera energia através da fusão nuclear em seu núcleo, onde o hidrogênio é convertido em hélio, liberando quantidades imensas de energia na forma de luz e calor. Este processo é responsável por sustentar a vida na Terra e governar as dinâmicas de todo o Sistema Solar.
+            </p>
+            
+            <h2 class="cinza">Planetas Interiores: Mercúrio, Vênus, Terra e Marte</h2>
+            <p>
+                Os quatro planetas mais próximos do Sol são conhecidos como planetas interiores ou telúricos. Eles são caracterizados por suas superfícies rochosas e metais pesados.
+            </p>
+            <ul>
+                <li ><strong>Mercúrio</strong> é o menor e mais próximo planeta do Sol. Tem uma superfície cheia de crateras, semelhante à da Lua, e quase não possui atmosfera. Devido à sua proximidade ao Sol, experimenta temperaturas extremas, variando de -173°C à noite a 427°C durante o dia.</li>
+                <li ><strong>Vênus</strong>, o segundo planeta a partir do Sol, é semelhante à Terra em tamanho e composição. No entanto, sua atmosfera densa, composta principalmente de dióxido de carbono, cria um efeito estufa descontrolado, fazendo de Vênus o planeta mais quente do Sistema Solar, com temperaturas médias em torno de 465°C.</li>
+                <li ><strong>Terra</strong> é o terceiro planeta do Sol e o único conhecido por abrigar vida. Sua atmosfera rica em oxigênio, a presença de água em estado líquido, e um clima moderado fazem da Terra um oásis no cosmos. A Terra também possui um único satélite natural, a Lua, que influencia marés e estabiliza a inclinação axial do planeta.</li>
+                <li ><strong>Marte</strong>, o quarto planeta, é frequentemente chamado de "Planeta Vermelho" devido ao óxido de ferro em sua superfície, que lhe dá uma coloração avermelhada. Marte possui montanhas gigantes, como o Monte Olimpo, o maior vulcão do Sistema Solar, e vales profundos, como o Valles Marineris. Marte tem duas pequenas luas, Fobos e Deimos, que se acredita serem asteroides capturados.</li>
+            </ul>
+            
+            <h2 class="cinza">O Cinturão de Asteroides</h2>
+            <p>
+                Entre as órbitas de Marte e Júpiter encontra-se o Cinturão de Asteroides, uma região repleta de fragmentos rochosos e metálicos. O maior corpo no cinturão é Ceres, um planeta anão com um diâmetro de aproximadamente 940 km. O Cinturão de Asteroides é uma reminiscência da formação inicial do Sistema Solar, contendo materiais primordiais que não se coalesceram em um planeta maior.
+            </p>
+            
+            <h2 class="cinza">Planetas Gigantes: Júpiter, Saturno, Urano e Netuno</h2>
+            <p>
+                Além do Cinturão de Asteroides estão os gigantes gasosos e os gigantes de gelo, conhecidos por suas enormes dimensões e atmosferas espessas.
+            </p>
+            <ul>
+                <li><strong>Júpiter</strong> é o maior planeta do Sistema Solar, com uma massa mais de 300 vezes maior que a da Terra. Sua atmosfera é composta principalmente de hidrogênio e hélio, e apresenta características notáveis como a Grande Mancha Vermelha, uma tempestade anticiclônica maior que a Terra. Júpiter possui 79 luas conhecidas, incluindo as quatro grandes luas galileanas: Io, Europa, Ganimedes e Calisto.</li>
+                <li><strong>Saturno</strong>, famoso por seus impressionantes anéis, é o segundo maior planeta. Os anéis de Saturno são compostos principalmente de partículas de gelo e rocha. Saturno também possui mais de 80 luas, sendo Titã a maior delas. Titã é notável por sua densa atmosfera e lagos de metano líquido na superfície.</li>
+                <li><strong>Urano</strong> é um gigante de gelo com uma atmosfera composta de hidrogênio, hélio e metano, o que lhe dá uma coloração azulada. Urano é único por sua inclinação axial extrema, girando quase de lado em relação ao plano da eclíptica. Urano possui 27 luas conhecidas e um sistema de anéis tênues.</li>
+                <li><strong>Netuno</strong>, o último dos planetas gigantes, é similar a Urano em composição, com uma atmosfera azulada devido ao metano. Netuno é conhecido por seus ventos violentos, que são os mais rápidos do Sistema Solar. Possui 14 luas conhecidas, sendo Tritão a maior e mais interessante, devido à sua atividade geológica e plumas de nitrogênio.</li>
+            </ul>
+            
+            <h2 class="cinza">Planetas Anões e a Cintura de Kuiper</h2>
+            <p>
+                Além da órbita de Netuno, encontra-se a Cintura de Kuiper, uma região rica em corpos gelados e planetas anões.
+            </p>
+            <ul>
+                <li><strong>Plutão</strong>, outrora classificado como o nono planeta, é agora reconhecido como um planeta anão. Possui cinco luas, com Caronte sendo a maior e mais notável, formando um sistema binário com Plutão.</li>
+                <li><strong>Eris</strong>, outro planeta anão, é um dos maiores objetos da Cintura de Kuiper, quase do tamanho de Plutão.</li>
+                <li><strong>Haumea</strong> e <strong>Makemake</strong> são outros planetas anões significativos nesta região, ambos com formas e características únicas.</li>
+            </ul>
+            
+            <h2 class="cinza">A Nuvem de Oort</h2>
+            <p>
+                Muito além da Cintura de Kuiper, a distâncias de até um ano-luz do Sol, acredita-se que exista a Nuvem de Oort, uma vasta coleção de cometas e corpos gelados. A Nuvem de Oort é a fronteira final do Sistema Solar, e os cometas que se originam desta região podem levar milhares de anos para completar uma órbita ao redor do Sol.
+            </p>
+            
+            <h2 class="cinza">Exploração e Descobertas</h2>
+            <p>
+                Desde o lançamento das primeiras sondas espaciais, como a Voyager 1 e 2, a exploração do Sistema Solar tem sido uma das maiores realizações da humanidade. Missões recentes, como as da sonda New Horizons, que sobrevoou Plutão, e as do rover Perseverance em Marte, continuam a expandir nosso conhecimento sobre os mundos que compõem o nosso Sistema Solar.
+            </p>
+            
+            <h2 class="cinza">Conclusão</h2>
+            <p>
+                O Sistema Solar é um local de maravilhas e mistérios. Cada planeta, lua, asteroide e cometa tem sua própria história para contar, e a exploração contínua promete revelar ainda mais sobre as origens e a evolução deste complexo sistema. Ao olharmos para o céu noturno e vermos os pontos de luz que representam nossos vizinhos planetários, somos lembrados de nossa posição em um universo vasto e em constante expansão. A jornada pelo Sistema Solar é, de fato, uma aventura épica pelo cosmos.
+            
+        </div>
+    
+        <script>
+            var images = [
+                'planetas-sistema-solar.jpg',
+                'Sistema solar 2.jpg',
+                'Imagens de um sistema solar.jpeg',
+                'Todos os planetas do sistema solar.jpg',
+                'Sol em fusão nuclear.gif',
+                'Planeta Terra e luas do sistema solar.gif',
+                'Planetas do sistema solar.gif',
+                'Sistema solar novo.webp',
+
+            ];
+            var currentIndex = 0;
+    
+            function changeImage() {
+                currentIndex++;
+                if (currentIndex >= images.length) {
+                    currentIndex = 0;
+                }
+                document.getElementById('planetaImg').src = images[currentIndex];
+            }
+    
+            setInterval(changeImage, 3000); // Change image every 3 seconds
+
+        </script>
+        
+
+      
+
+        
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.cinza {
+    font-family:  sans-serif;
+    font-size: 20px;
+    color: #332eaf;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sistemaSolarVideo {
+    width: 600px; /* Ajuste a largura conforme necessário */
+    height: 340px; /* Ajuste a altura conforme necessário */
+}
+
